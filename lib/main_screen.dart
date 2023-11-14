@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+
 import 'switch_widget.dart';
-import 'timer_widget.dart';
 
 void main() => runApp(const SwitchApp());
 
@@ -18,7 +18,6 @@ class SwitchApp extends StatelessWidget {
               SizedBox(
                 height: 425,
               ),
-              RunTimer(),
               SwitchWidget()
             ],
           ),
@@ -27,4 +26,3 @@ class SwitchApp extends StatelessWidget {
     );
   }
 }
-
